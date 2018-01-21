@@ -63,14 +63,6 @@ function isFunction (value) {
   return isTypeOf(value, types.function)
 }
 
-function isElement (value) {
-  return isTypeOf(value, types.element)
-}
-
-function isNonemptyString (value) {
-  return isString(value) && value.length > 0
-}
-
 function isOneOf (value, values) {
   for (let val of values) {
     if (val === value) {
@@ -90,7 +82,5 @@ export {
   isArray,
   isObject,
   isFunction,
-  isElement,
-  isNonemptyString,
   isOneOf
 }

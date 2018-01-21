@@ -1,0 +1,25 @@
+{
+  "name": "c-jstype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangjiuzhou/jsType.git"
+  },
+  "author": "Jiuzhou Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjiuzhou/jsType/issues"
+  },
+  "homepage": "https://github.com/zhangjiuzhou/jsType#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.1.4"
+  }
+}
