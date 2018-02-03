@@ -4,7 +4,7 @@
 
 'use strict'
 
-import * as jsType from '../index'
+import * as jsType from '../src/index'
 
 const typeAndValues = {
   'undefined': undefined,

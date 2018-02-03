@@ -1,21 +1,23 @@
 {
   "name": "c-jstype",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Javascript中的类型判断",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel -s inline -d lib src",
+    "prepublish": "npm test && npm run build",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangjiuzhou/jsType.git"
+    "url": "git+https://github.com/zhangjiuzhou/c-jstype.git"
   },
-  "author": "Jiuzhou Zhang",
+  "author": "apple",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhangjiuzhou/jsType/issues"
+    "url": "https://github.com/zhangjiuzhou/c-jstype/issues"
   },
-  "homepage": "https://github.com/zhangjiuzhou/jsType#readme",
+  "homepage": "https://github.com/zhangjiuzhou/c-jstype#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
