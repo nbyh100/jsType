@@ -1,7 +1,8 @@
-'use strict'
 /**
  * Created by jiuzhou.zhang on 17/2/2.
  */
+
+'use strict'
 
 const types = {
   undefined: 'undefined',
@@ -10,8 +11,7 @@ const types = {
   boolean: 'boolean',
   array: 'array',
   object: 'object',
-  function: 'function',
-  element: 'element'
+  function: 'function'
 }
 
 const validators = {
@@ -20,9 +20,6 @@ const validators = {
   },
   [types.object]: (value) => {
     return typeof value === 'object' && Object.prototype.toString.call(value) !== '[object Array]'
-  },
-  [types.element]: (value) => {
-    return typeof value === 'object' && value.prototype && typeof value.render === 'function'
   }
 }
 

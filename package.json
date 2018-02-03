@@ -1,6 +1,6 @@
 {
   "name": "c-jstype",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript中的类型判断",
   "main": "lib/index.js",
   "scripts": {
@@ -14,9 +14,6 @@
   },
   "author": "apple",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhangjiuzhou/c-jstype/issues"
-  },
   "homepage": "https://github.com/zhangjiuzhou/c-jstype#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
