@@ -1,6 +1,6 @@
 {
   "name": "c-jstype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript中的类型判断",
   "main": "lib/index.js",
   "scripts": {
