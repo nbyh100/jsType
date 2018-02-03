@@ -1,4 +1,4 @@
-# jsType
+# c-jstype
 Javascript中的类型判断。
 
 # example
